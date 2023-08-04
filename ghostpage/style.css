@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Epilogue:wght@500;700&display=swap');
+
+
+.transition{
+    animation: floaty 1.8s  alternate;
+}
+
+.ghost{
+    animation: floaty 1.8s infinite alternate;
+}
+
+
+@keyframes floaty {
+    0%{
+      transform: translateY(0);
+    }
+    100%{
+        transform: translateY(15px);
+
+    }
+}
+
+
+.bar{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 25px;
+
+}
+
+.bar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+
+.ham{
+    display: none;
+}
+
+nav{
+    background-color: #617F8F;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #617F8F;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    margin-left: 15%;
+}
+
+
+.image-part{
+    margin-right: 22%;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Epilogue', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p{
+    font-family: 'Epilogue', sans-serif;
+}
+
+@media only screen and (max-width: 430px){
+    section{
+        grid-template-columns: 1fr;
+    }
+
+    .image-part{
+        margin-top: 70px;
+    }
+    .text-part{
+        line-height: 1.7em;
+    }
+    .heading{
+        margin-top: 30px;
+    }
+    .para{
+        margin-top: 30px;
+    }
+}
