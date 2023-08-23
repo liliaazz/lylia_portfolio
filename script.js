@@ -81,9 +81,9 @@ function apps_btn_clicked(){
 }
 
 function websites_btn_clicked(){
-    para_project1.textContent = "an interactive website that will help you Learn about my country Algeria!"
-    heading_project1.textContent  =  "Algeria Website"
-    image_one.src = "images/algeria.png"
+    para_project1.textContent = "A desktop only website for the popular hamoud boualem drinks! "
+    heading_project1.textContent  =  "Hamoud Boualem Website"
+    image_one.src = "images/webjdid.png"
 
     para_project2.textContent = "hatch is a website for algerians, it shares about all the amazing opportunities that you can attend for free in algiers or online!"
     heading_project2.textContent  =  "hatch Website"
